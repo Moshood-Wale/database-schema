@@ -1,5 +1,6 @@
 # ERD for Expenditure Approval System
 
+```mermaid
 erDiagram
     User ||--o{ ExpenditureRequest : creates
     User ||--o{ Approval : approves
@@ -38,7 +39,7 @@ erDiagram
         text comments
         datetime approved_at
     }
-
+```
 
 # Explanation of Design Decisions for Expenditure Approval System
 
